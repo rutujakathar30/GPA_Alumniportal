@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "c:/Users/Akash28/Downloads/Alumni project final/Alumni/AlumniPortal/node_modules/bootstrap/js/src/collapse.js";
 
 
 
