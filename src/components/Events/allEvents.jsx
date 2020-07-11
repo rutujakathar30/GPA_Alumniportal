@@ -35,7 +35,7 @@ class AllEvents extends Component {
                   <h4 className="">{event.title}</h4>
                   <p className="text-center">
                     <h5 className="d-inline-block mr-2">On : </h5>
-                    <span>" {event.startsAt}"</span>
+                    <span>" {event.date}"</span>
                     <br></br>
 
                     <h5 className="d-inline-block mr-2">Where :</h5>
