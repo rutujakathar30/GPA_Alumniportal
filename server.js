@@ -14,13 +14,19 @@ server.listen(port, () => console.log("server is up"));
 
 server.use(cors());
 server.use(express.json());
+
+if(process.env.JAWSDB_URL)
+{
+  var connection = mysql.createConnection(process.env.JAWSDB_URL)
+}else
+{
 var connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
   database: "alumni_db",
 });
-
+}
 connection.connect();
 
 //get users list
